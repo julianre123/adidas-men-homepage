@@ -1,0 +1,24 @@
+.page {
+  overflow-y: auto;
+  overflow-x: visible;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  margin-top: 100px;
+}
+.text > h2 {
+  font-size: 30px;
+}
+
+.text__text {
+  max-width: 1000px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
